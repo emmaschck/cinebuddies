@@ -1,134 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CineBuddies</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Montserrat, sans-serif;
-      background: #f6f1eb;
-      color: #1f1f1f;
-      line-height: 1.6;
-    }
-
-    nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: rgba(246,241,235,0.95);
-      border-bottom: 1px solid #ddd;
-      padding: 10px 20px;
-      display: flex;
-      justify-content: space-between;
-    }
-
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #550000;
-      font-weight: 600;
-    }
-
-    section {
-      padding: 100px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    h1, h2 {
-      font-family: "Playfair Display", serif;
-      color: #550000;
-    }
-
-    .hero {
-      text-align: center;
-      padding-top: 140px;
-    }
-
-    .hero h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
-
-    .hero h2 {
-      font-size: 24px;
-      font-weight: normal;
-      color: #a85307;
-    }
-
-    .btn {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 20px;
-      border-radius: 20px;
-      text-decoration: none;
-      border: 1px solid #550000;
-      color: #550000;
-    }
-
-    .contact {
-      background: #550000;
-      color: white;
-      text-align: center;
-    }
-
-    .contact a {
-      color: #fff;
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background: #a85307;
-      text-decoration: none;
-      border-radius: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<nav>
-  <div>CineBuddies</div>
-  <div>
-    <a href="#vision">Vision</a>
-    <a href="#mission">Mission</a>
-    <a href="#values">Values</a>
-    <a href="#contact">Contact</a>
-  </div>
-</nav>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">CineBuddies</a>
 
-<section class="hero" id="top">
-  <h1>CineBuddies</h1>
-  <h2>Cinema starts conversations.</h2>
-  <p>Exploring human connections through shared cinema experiences.</p>
-  <a class="btn" href="#vision">Discover vision</a>
-  <a class="btn" href="#contact">Contact</a>
-</section>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#values">Values</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<section id="vision">
-  <h2>Vision</h2>
-  <p>We believe cinema is more than entertainment. It creates moments of exchange and connection between people.</p>
-  <p>CineBuddies exists to encourage more human cultural experiences around film.</p>
-</section>
 
-<section id="mission">
-  <h2>Mission</h2>
-  <p>Our mission is to provide a bridge between cinema-goers and arthouse cinemas by facilitating connections based on shared movie experiences.</p>
-</section>
+  <main>
 
-<section id="values">
-  <h2>Values</h2>
-  <p>Human connection • Cultural discovery • Independent cinema • Community</p>
-</section>
+    <!-- HERO -->
 
-<section id="contact" class="contact">
-  <h2>Contact</h2>
-  <p>A project in development open to collaborations and discussions.</p>
-  <a href="mailto:cinebuddies@gmail.com">cinebuddies@gmail.com</a>
-</section>
+    <section class="hero">
+      <div class="hero-light hero-light-1"></div>
+      <div class="hero-light hero-light-2"></div>
+
+      <div class="container hero-content">
+
+        <span class="hero-tag">
+          Social experiences around cinema
+        </span>
+
+        <h1>
+          CineBuddies
+        </h1>
+
+        <h2 class="hero-subtitle">
+          Cinema starts conversations.
+        </h2>
+
+        <p class="hero-text">
+          CineBuddies is an association exploring new ways to create meaningful
+          human connections through shared cinema experiences.
+        </p>
+
+        <p class="hero-text hero-text-secondary">
+          CineBuddies is an association exploring new ways to create meaningful
+          human connections through shared cinema experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#vision" class="btn btn-primary">
+            Discover our vision
+          </a>
+
+          <a href="#contact" class="btn btn-secondary">
+            Contact us
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- VISION -->
+
+    <section id="vision" class="section">
+      <div class="container split-layout">
+
+        <div>
+          <span class="section-tag">Our Vision</span>
+          <h2>
+            Reimagining the social experience of cinema.
+          </h2>
+        </div>
+
+        <div>
+          <p>
+            We believe cinema is more than entertainment.
+            A screening can become a moment of exchange,
+            curiosity, and connection between people who
+            would otherwise never meet.
+          </p>
+
+          <p>
+            CineBuddies exists to encourage more human
+            and more social cultural experiences around film.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- MISSION -->
+
+    <section id="mission" class="section mission-section">
+      <div class="container split-layout">
+
+        <div>
+          <span class="section-tag">Our Mission</span>
+          <h2>
+            Building bridges between cinema-goers and independent cinemas.
+          </h2>
+        </div>
+
+        <div>
+          <p>
+            Our mission is to provide a digital bridge between cinema-goers
+            and arthouse cinemas by facilitating connections between users
+            based on shared movie tastes and specific showtimes.
+          </p>
+
+          <p>
+            We aim to encourage richer cultural experiences and strengthen
+            local cinema communities through human interaction around film.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- VALUES -->
+
+    <section id="values" class="section values-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-tag">Our Values</span>
+
+          <h2>
+            Building meaningful cultural connections.
+          </h2>
+        </div>
+
+        <div class="values-grid">
+
+          <article class="value-card">
+            <h3>Human connection</h3>
+            <p>
+              Encouraging authentic in-person interactions.
+            </p>
+          </article>
+
+          <article class="value-card">
+            <h3>Cultural discovery</h3>
+            <p>
+              Helping audiences engage with diverse cinematic experiences.
+            </p>
+          </article>
+
+          <article class="value-card">
+            <h3>Independent cinema</h3>
+            <p>
+              Supporting local and arthouse cinema ecosystems.
+            </p>
+          </article>
+
+          <article class="value-card">
+            <h3>Community</h3>
+            <p>
+              Creating spaces for discussion and shared experiences.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- QUOTE -->
+
+    <section class="quote-section">
+      <div class="container quote-container">
+        <p>
+          “Films are better when conversations continue after the credits.”
+        </p>
+      </div>
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-container">
+
+        <span class="section-tag section-tag-light">
+          Contact
+        </span>
+
+        <h2>
+          A project currently in development.
+        </h2>
+
+        <p>
+          CineBuddies is currently shaping its future initiatives and collaborations.
+          We are always open to conversations with cinemas, cultural organizations,
+          students, and film enthusiasts.
+        </p>
+
+        <a href="mailto:cinebuddies@gmail.com" class="btn btn-light">
+          cinebuddies@gmail.com
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+    <div class="container footer-container">
+
+      <div>
+        <h3>CineBuddies</h3>
+        <p>Creating connections through cinema.</p>
+      </div>
+
+      <div>
+        <p>© 2026 CineBuddies</p>
+      </div>
+
+    </div>
+  </footer>
 
 </body>
 </html>
