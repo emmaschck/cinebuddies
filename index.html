@@ -1,0 +1,775 @@
+# CineBuddies — Landing Page
+
+## index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineBuddies — Cinema starts conversations</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">CineBuddies</div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="overlay"></div>
+
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="tag">Social cinema experience</span>
+
+          <h1>
+            Turn every film screening into the start of a real conversation.
+          </h1>
+
+          <p>
+            CineBuddies connects cinema-goers attending the same screenings,
+            helping people discover arthouse films together and share their
+            thoughts in person after the movie.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Join the project</a>
+            <a href="#features" class="btn btn-secondary">Discover more</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="ticket-card">
+            <span class="card-label">Next screening</span>
+
+            <h3>Independent cinema community</h3>
+
+            <div class="ticket-info">
+              <div>
+                <span>Date</span>
+                <strong>Friday · 20:30</strong>
+              </div>
+
+              <div>
+                <span>Movie</span>
+                <strong>Arthouse Selection</strong>
+              </div>
+            </div>
+
+            <div class="ticket-footer">
+              <p>Meet people who share your cinematic tastes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat-box">
+          <h2>Shared</h2>
+          <p>movie discoveries</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>Meaningful</h2>
+          <p>in-person discussions</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>Independent</h2>
+          <p>cinema support</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="vision" class="content-section light-section">
+      <div class="container two-columns">
+        <div>
+          <span class="section-tag">Our Vision</span>
+          <h2>Making cinema social again.</h2>
+        </div>
+
+        <div>
+          <p>
+            CineBuddies aims to transform any film screening into the beginning
+            of a new connection. Watching a movie should not end when the credits
+            roll — it should continue through spontaneous conversations,
+            emotional reactions, and shared interpretations.
+          </p>
+
+          <p>
+            By encouraging in-person exchanges around films, we want to create
+            more welcoming and human cinema experiences for everyone.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="mission" class="content-section dark-section">
+      <div class="container two-columns">
+        <div>
+          <span class="section-tag section-tag-light">Our Mission</span>
+          <h2>
+            Building a digital bridge between cinema-goers and arthouse cinemas.
+          </h2>
+        </div>
+
+        <div>
+          <p>
+            CineBuddies facilitates connections between users based on shared
+            movie tastes and specific showtimes.
+          </p>
+
+          <p>
+            Our mission is to support independent cinemas by helping audiences
+            discover films together, meet naturally after screenings, and build
+            local communities around cinema culture.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="features" class="features-section">
+      <div class="container">
+
+        <div class="section-heading center">
+          <span class="section-tag">Why CineBuddies</span>
+          <h2>An experience designed for film lovers.</h2>
+        </div>
+
+        <div class="features-grid">
+
+          <article class="feature-card">
+            <div class="feature-number">01</div>
+            <h3>Shared showtimes</h3>
+            <p>
+              Connect with people attending the exact same screening.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-number">02</div>
+            <h3>Taste matching</h3>
+            <p>
+              Discover cinema-goers with similar film preferences and interests.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-number">03</div>
+            <h3>Human conversations</h3>
+            <p>
+              Encourage meaningful discussions beyond digital interactions.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-number">04</div>
+            <h3>Arthouse support</h3>
+            <p>
+              Strengthen local cinema communities and independent theaters.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="quote-section">
+      <div class="container quote-box">
+        <p>
+          “Cinema becomes unforgettable when it is shared.”
+        </p>
+      </div>
+    </section>
+
+
+    <section id="contact" class="cta-section">
+      <div class="container cta-content">
+        <span class="section-tag section-tag-light">Join CineBuddies</span>
+
+        <h2>
+          Help us build more human cinema experiences.
+        </h2>
+
+        <p>
+          Whether you are a movie enthusiast, a student association,
+          or an independent cinema, we would love to connect.
+        </p>
+
+        <a href="mailto:contact@cinebuddies.org" class="btn btn-primary-light">
+          Contact us
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <h3>CineBuddies</h3>
+        <p>
+          Creating connections through cinema.
+        </p>
+      </div>
+
+      <div>
+        <p>
+          © 2026 CineBuddies — All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+```
+
+---
+
+## style.css
+
+```css
+:root {
+  --primary: #550000;
+  --secondary: #a85307;
+  --background: #f6f1eb;
+  --surface: #fffdfa;
+  --text: #1f1f1f;
+  --text-soft: #666666;
+  --border: rgba(0, 0, 0, 0.08);
+  --white: #ffffff;
+  --shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--background);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: min(1120px, 92%);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.15;
+}
+
+p {
+  color: var(--text-soft);
+  font-size: 1rem;
+}
+
+section {
+  position: relative;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(246, 241, 235, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: var(--primary);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--secondary);
+}
+
+
+/* HERO */
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top right, rgba(168, 83, 7, 0.16), transparent 28%),
+    radial-gradient(circle at bottom left, rgba(85, 0, 0, 0.14), transparent 35%),
+    var(--background);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.35), transparent);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 5rem;
+  align-items: center;
+  padding-top: 6rem;
+}
+
+.hero-text h1 {
+  font-size: clamp(3rem, 5vw, 5.2rem);
+  margin: 1.2rem 0;
+  max-width: 700px;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  max-width: 620px;
+}
+
+.tag,
+.section-tag {
+  display: inline-block;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  background: rgba(85, 0, 0, 0.08);
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-tag-light {
+  background: rgba(255,255,255,0.12);
+  color: var(--white);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.7rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  background: #6f0606;
+}
+
+.btn-secondary {
+  border: 1px solid rgba(0,0,0,0.12);
+  color: var(--text);
+  background: rgba(255,255,255,0.7);
+}
+
+.btn-secondary:hover {
+  border-color: var(--secondary);
+}
+
+.hero-card {
+  display: flex;
+  justify-content: center;
+}
+
+.ticket-card {
+  width: 100%;
+  max-width: 360px;
+  padding: 2rem;
+  border-radius: 28px;
+  background: rgba(255,255,255,0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.45);
+  box-shadow: var(--shadow);
+}
+
+.card-label {
+  color: var(--secondary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ticket-card h3 {
+  margin: 1rem 0 2rem;
+  font-size: 2rem;
+}
+
+.ticket-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ticket-info span {
+  display: block;
+  color: var(--text-soft);
+  font-size: 0.85rem;
+}
+
+.ticket-info strong {
+  font-size: 1rem;
+}
+
+.ticket-footer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+
+/* STATS */
+
+.stats {
+  margin-top: -60px;
+  z-index: 5;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.stat-box {
+  background: var(--surface);
+  padding: 2rem;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.stat-box h2 {
+  color: var(--primary);
+  font-size: 2rem;
+}
+
+
+/* CONTENT SECTIONS */
+
+.content-section {
+  padding: 8rem 0;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.content-section h2 {
+  margin-top: 1rem;
+  font-size: clamp(2.4rem, 4vw, 3.6rem);
+}
+
+.light-section {
+  background: var(--background);
+}
+
+.dark-section {
+  background: linear-gradient(135deg, #2b0d0d, #550000);
+}
+
+.dark-section h2,
+.dark-section p {
+  color: var(--white);
+}
+
+
+/* FEATURES */
+
+.features-section {
+  padding: 8rem 0;
+  background: #fdfaf7;
+}
+
+.section-heading {
+  margin-bottom: 4rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.section-heading h2 {
+  margin-top: 1rem;
+  font-size: clamp(2.5rem, 4vw, 4rem);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.feature-card {
+  background: var(--white);
+  border-radius: 28px;
+  padding: 2.2rem;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+}
+
+.feature-number {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+
+/* QUOTE */
+
+.quote-section {
+  padding: 3rem 0 7rem;
+}
+
+.quote-box {
+  text-align: center;
+  background: linear-gradient(135deg, rgba(85,0,0,0.08), rgba(168,83,7,0.08));
+  border-radius: 28px;
+  padding: 4rem 2rem;
+}
+
+.quote-box p {
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  color: var(--primary);
+  font-family: 'Playfair Display', serif;
+}
+
+
+/* CTA */
+
+.cta-section {
+  background: linear-gradient(135deg, #7a1d07, #550000);
+  color: var(--white);
+  padding: 7rem 0;
+}
+
+.cta-content {
+  text-align: center;
+  max-width: 760px;
+}
+
+.cta-content h2 {
+  margin: 1.5rem 0;
+  font-size: clamp(2.6rem, 5vw, 4.5rem);
+}
+
+.cta-content p {
+  color: rgba(255,255,255,0.82);
+  margin-bottom: 2.5rem;
+}
+
+.btn-primary-light {
+  background: var(--white);
+  color: var(--primary);
+}
+
+.btn-primary-light:hover {
+  transform: translateY(-2px);
+}
+
+
+/* FOOTER */
+
+.footer {
+  background: #140808;
+  color: rgba(255,255,255,0.8);
+  padding: 2rem 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer h3 {
+  color: var(--white);
+  margin-bottom: 0.4rem;
+}
+
+.footer p {
+  color: rgba(255,255,255,0.65);
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 980px) {
+
+  .hero-content,
+  .two-columns,
+  .features-grid,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 6rem 0 4rem;
+  }
+
+  .hero-card {
+    justify-content: flex-start;
+  }
+
+  .stats {
+    margin-top: 0;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .content-section,
+  .features-section,
+  .cta-section {
+    padding: 5rem 0;
+  }
+
+  .ticket-card {
+    padding: 1.5rem;
+  }
+
+  .ticket-info {
+    flex-direction: column;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+}
+```
+
+---
+
+## Structure du projet
+
+```text
+cinebuddies/
+│
+├── index.html
+└── style.css
+```
+
+---
+
+## Publication sur GitHub Pages
+
+1. Créer un repository GitHub.
+2. Ajouter `index.html` et `style.css` à la racine.
+3. Push sur GitHub.
+4. Aller dans:
+
+   * Settings
+   * Pages
+   * Deploy from branch
+   * sélectionner `main` et `/root`
+5. Le site sera publié automatiquement.
