@@ -300,9 +300,10 @@ p {
 /* CONTACT */
 
 .contact-section {
-  background: linear-gradient(135deg, #2a0c0c, #550000);
-  color: var(--white);
-  padding: 7rem 0;
+  background: linear-gradient(135deg, #2b0f0f, #1a0a0a);
+  color: #ffffff;
+  text-align: center;
+  padding: 6rem 0;
 }
 
 .contact-container {
