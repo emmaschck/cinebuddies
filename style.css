@@ -300,41 +300,86 @@ p {
 /* CONTACT */
 
 .contact-section {
-  background: linear-gradient(135deg, #2b0f0f, #1a0a0a);
-  color: #ffffff;
+  position: relative;
+  background: #f6f1eb;
   text-align: center;
   padding: 6rem 0;
+  overflow: hidden;
 }
 
+/* ambient cinematic glows (same logic as hero, but softer) */
+.contact-section::before,
+.contact-section::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.16;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* warm ocre glow */
+.contact-section::before {
+  width: 340px;
+  height: 340px;
+  background: #a85307;
+  top: -140px;
+  right: -140px;
+}
+
+/* deep cinematic red glow (muted, not aggressive) */
+.contact-section::after {
+  width: 420px;
+  height: 420px;
+  background: #550000;
+  bottom: -180px;
+  left: -160px;
+}
+
+/* ensure content stays above decorative layers */
 .contact-container {
+  position: relative;
+  z-index: 1;
   max-width: 820px;
-  text-align: center;
+  margin: 0 auto;
 }
 
-.section-tag-light {
-  background: rgba(255, 255, 255, 0.1);
-  color: var(--white);
-}
-
+/* title */
 .contact-section h2 {
+  color: #550000;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
   margin-top: 1.5rem;
-  font-size: clamp(2.8rem, 6vw, 5rem);
 }
 
+/* paragraph text */
 .contact-section p {
-  color: rgba(255, 255, 255, 0.8);
-  margin: 2rem auto 0;
-  max-width: 720px;
+  color: rgba(31, 31, 31, 0.75);
+  max-width: 620px;
+  margin: 1.5rem auto;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
+/* email button */
 .btn-light {
-  margin-top: 3rem;
-  background: var(--white);
-  color: var(--primary);
+  background: #ffffff;
+  color: #550000;
+  border: 1px solid rgba(85, 0, 0, 0.15);
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
 .btn-light:hover {
   transform: translateY(-2px);
+  border-color: rgba(168, 83, 7, 0.4);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
 }
 
 
